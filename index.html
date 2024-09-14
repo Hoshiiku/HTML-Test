@@ -13,23 +13,39 @@
     </p>
     <img src="https://a.storyblok.com/f/178900/1920x1080/226ff030f5/crunchyroll-hime-forest-winter-2024.jpg/m/1200x0/filters:quality(95)format(webp)" alt="Crunchy img">
     <img src="img/what-sm.jpg" alt="Crunchy 2">
-    <form>
+
+
+    <form class = "form" action = "/form" method="post">
         <label for="name">Enter your name</label>
-        <input id = "name" type="text">
+        <input name = "Username" id = "name" type="text">
 
         <br>
         <br>
 
-        <label for="password">Enter your password</label>
-        <input type="password" id="password">
+        <label  for="password">Enter your password</label>
+        <input name = "password" type="password" id="password">
 
         <br>
         <br>
 
-        <label for="ID">Upload your ID</label>
+        <label  for="ID">Upload your ID</label>
+        <input name = "personal_ID" type="file" id="ID">
 
-        <input type="file" id="ID">
+        <label>Select your country</label>
+        <select name = "country">
+            <option >Colombia</option>
+            <option >Chile</option>
+            <option >Peru</option>
+            <option >Mexico</option>
+
+
+        </select>
+        <button type = "submit"> Submit</button>
+
 
     </form>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kd33UVZhnAA?si=FKKK82mxG29PlsiH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
 </body>
 </html>

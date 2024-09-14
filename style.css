@@ -17,3 +17,29 @@ p {
 
 
 }
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+
+
+} 
+
+@keyframes color-change {
+    0% {
+        color: blue
+    }
+
+    50% {
+        color: red
+    }
+
+    100% {
+        color: blue
+    }
+
+}
+h1 {
+    animation: color-change 3s infinite
+}
